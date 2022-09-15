@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+      "moduleResolution": "node",
+      "outDir": "build",
+      "types": [
+          "node",
+          "webdriverio/async",
+          "expect-webdriverio"
+      ],
+      "target": "ES2015",
+      "module": "commonjs",
+  },
+    "include": ["lib"],
+    "exclude": ["node_modules"]
+}
