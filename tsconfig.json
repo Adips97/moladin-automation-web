@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
       "moduleResolution": "node",
-      "outDir": "build",
       "types": [
           "node",
           "webdriverio/async",
