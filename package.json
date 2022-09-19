@@ -2,7 +2,7 @@
     "name": "moladin-automation-web",
     "version": "1.0.0",
     "description": "Library commands and helper in typescript",
-    "main": "lib/index.js",
+    "main": "build/index.js",
     "scripts": {
         "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1",
