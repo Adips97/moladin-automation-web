@@ -1,3 +1,3 @@
 import * as command from './commands/index';
 
-export { command };
+export default { command };
