@@ -1,14 +1,16 @@
 {
-  "compilerOptions": {
-      "moduleResolution": "node",
-      "types": [
-          "node",
-          "webdriverio/async",
-          "expect-webdriverio"
-      ],
+    "compilerOptions": {
       "target": "ES2015",
       "module": "commonjs",
-  },
+      "declaration": true,
+      "outDir": "lib",
+      "strict": true,
+      "moduleResolution": "node",
+        "types": [
+            "node",
+            "webdriverio/async",
+            "expect-webdriverio"]
+    },
     "include": ["lib"],
     "exclude": ["node_modules"]
 }
