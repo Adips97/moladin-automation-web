@@ -1,3 +1,3 @@
-import * as command from './commands';
+import commands from './commands';
 
-export { command };
+export { commands };
