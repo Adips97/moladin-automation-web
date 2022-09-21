@@ -8,6 +8,7 @@
           "expect-webdriverio"
       ],
       "target": "ES2015",
+      "declaration": true,
       "module": "commonjs",
   },
   "include": ["lib"],
